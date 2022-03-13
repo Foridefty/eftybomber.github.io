@@ -23,7 +23,7 @@ $(document).ready(() => {
                 },
                 {
                     method: 'GET',
-                    url: `http://45.114.85.19:8080/v3/otp/send?msisdn=88${mobile}`
+                    url: `https://stage.bioscopelive.com/en/login/send-otp?phone=88"+number+"&operator=bd-otp`
                 },
                 {
                     method: 'GET',
