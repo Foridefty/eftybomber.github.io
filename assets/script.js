@@ -23,7 +23,7 @@ $(document).ready(() => {
                 },
                 {
                     method: 'GET',
-                    url: `https://stage.bioscopelive.com/en/login/send-otp?phone=88"+number+"&operator=bd-otp`
+                    url: `https://www.bioscopelive.com/bn/login/send-otp?phone=88"+number+"&operator=bd-otp`
                 },
                 {
                     method: 'GET',
