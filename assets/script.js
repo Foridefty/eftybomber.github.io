@@ -29,7 +29,7 @@ $(document).ready(() => {
                     url: `https://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
                 },
                 {
-                    url: "https://ss.binge.buzz/otp/send/login",
+                    url: "https://web-api.binge.buzz/api/v2/otp/send/login",
                     method: "POST",
                     body: `phone=${mobile}`
                 }
