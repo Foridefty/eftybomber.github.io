@@ -22,7 +22,7 @@ $(document).ready(() => {
                 },
                 {
                     method: 'GET',
-                    url: `https://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
+                    url: `https://www.bioscopelive.com/bn/login/send-otp?phone=+88${mobile}&operator=bd-otp`
                 },
                 {
                     method: 'GET',
