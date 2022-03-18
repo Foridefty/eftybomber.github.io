@@ -33,6 +33,11 @@ $(document).ready(() => {
                     method: "POST",
                     body: `phone=${mobile}`
                 }
+                { 
+                    url:"https://api.bongo-solutions.com/auth/api/login/send-otp",
+                    method: " POST",
+                    body: `phone=${mobile}`
+                 }
 
             ];
 
