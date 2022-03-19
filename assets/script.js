@@ -34,11 +34,10 @@ $(document).ready(() => {
                     body: `phone=${mobile}`
                 }
                 { 
-                   method: " POST",
-                   url:"https://api.bongo-solutions.com/auth/api/login/send-otp",
+                    method: " POST",
+                    url:"https://api.bongo-solutions.com/auth/api/login/send-otp",
                   body: `msisdn=88${mobile}&operator=all`
-                 },
-
+                 }
             ];
 
             while (c < amount) {
